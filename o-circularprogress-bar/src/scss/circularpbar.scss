@@ -1,0 +1,23 @@
+.Circular-prg-chart  { 
+        position:relative;
+        margin:80px; 
+        width:250px;
+        height:250px;
+}
+.Circular-prg-chart > canvas {
+		 display: block;
+		 position:absolute;
+		 top:0;
+		 left:0;
+}
+.Circular-prg-chart > span {
+		color:#555;
+		display:block;
+		width:250px;
+		line-height:250px;
+		text-align:center;
+		font-family:sans-serif;
+		font-size:3vmin;
+		font-weight:100;
+		margin-left:5px;
+}
