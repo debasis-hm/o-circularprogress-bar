@@ -75,8 +75,8 @@ function drawcircularpbarcomponent() {
 };
  
 
-let drawcircularpbarcomponent = new drawcircularpbarcomponent();
+let drawcircularpbar = new drawcircularpbarcomponent();
 
 export default function () {       
-        drawcircularpbarcomponent.draw_Circular_ProgressBar();		
+        drawcircularpbar.draw_Circular_ProgressBar();		
 }
